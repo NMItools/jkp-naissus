@@ -1,0 +1,7 @@
+jkp-naissus/i18n
+venv/
+.venv/
+start_ide.bat
+.vscode
+*/.pytest_cache
+__pycache__
