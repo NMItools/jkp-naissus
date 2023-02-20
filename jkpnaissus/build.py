@@ -17,7 +17,7 @@ py_files = [
     for fil in glob.glob("**/*.py", recursive=True)
     if "test/" not in fil and "test\\" not in fil
 ]
-locales = ["fi"]
+locales = ["en"]
 profile = "default"
 ui_files = list(glob.glob("**/*.ui", recursive=True))
 resources = list(glob.glob("**/*.qrc", recursive=True))
