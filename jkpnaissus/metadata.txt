@@ -1,11 +1,11 @@
 [general]
 name=JKP NAISSUS
-description=
+description=GIS for water and sewer utility
 about=
 version=0.1.0
 qgisMinimumVersion=3.16
-author=
-email=
+author=Nebojša Pešić
+email=nmitools@gmail.com
 changelog=
 tags=
 repository=https://github.com/NMItools/jkp-naissus
