@@ -7,3 +7,6 @@ addopts = "-v"
 
 [tool.coverage.report]
 omit = ["jkpnaissus/qgis_plugin_tools/*"]
+
+[tool.mypy]
+implicit_optional = true

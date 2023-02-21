@@ -10,13 +10,15 @@ from jkpnaissus.qgis_plugin_tools.tools.custom_logging import (
     teardown_logger,
 )
 from jkpnaissus.qgis_plugin_tools.tools.i18n import setup_translation
-from jkpnaissus.qgis_plugin_tools.tools.resources import plugin_name
+
+# from jkpnaissus.qgis_plugin_tools.tools.resources import plugin_name
 
 
 class Plugin:
     """QGIS Plugin Implementation."""
 
-    name = plugin_name()
+    # name = plugin_name()
+    name = "JKP Naissus GIS"
 
     def __init__(self) -> None:
         setup_logger(Plugin.name)
