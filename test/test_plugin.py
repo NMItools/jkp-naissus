@@ -1,5 +1,5 @@
-from jkpnaissus.qgis_plugin_tools.tools.resources import plugin_name
+from jkpnaissus.plugin import Plugin
 
 
 def test_plugin_name():
-    assert plugin_name() == "JKPNAISSUS"
+    assert Plugin.name == "JKP Naissus GIS"

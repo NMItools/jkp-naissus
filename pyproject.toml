@@ -5,6 +5,10 @@ profile = "black"
 [tool.pytest.ini_options]
 addopts = "-v"
 
+[tool.coverage.run]
+branch = true
+source = ["test"]
+
 [tool.coverage.report]
 omit = ["jkpnaissus/qgis_plugin_tools/*"]
 
